@@ -128,7 +128,7 @@ section .title::before{
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: crimson;
+    color: rgb(11, 124, 90);
 }
 .navbar.sticky .menu li a:hover{
     color: #fff;
@@ -263,25 +263,25 @@ section .title::before{
 }
 .about .about-content .right a{
     display: inline-block;
-    background: rgb(58, 122, 219);
+    background: rgb(103, 147, 230);
     color: rgb(235, 235, 238);
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid rgb(0, 0, 0);
+    border: 2px solid rgb(103, 147, 230);
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
-    color: rgb(5, 0, 0);
+    color: rgb(103, 147, 230);
     background: none;
 }
 
 /* skills section styling */
 .skills {
     color:#fff;
-    background: #FFB6C1;
+    background: #03273b;
 }
 
 .skills .title::before,
@@ -302,7 +302,7 @@ section .title::before{
 
 .skills .skills-content .card{
     width: calc(25% - 150px);
-    background: #6495ED;
+    background: #000000;
     text-align: center;
     border-radius: 6px;
     padding: 30px 10px;
@@ -311,7 +311,7 @@ section .title::before{
     
 }
 .skills .skills-content .card:hover{
-    background: #00CED1;
+    background: #315053;
 }
 .skills .skills-content .card .box{
     transition: all 0.3s ease;
@@ -321,11 +321,11 @@ section .title::before{
 }
 .skills .skills-content .card i{
     font-size: 20px;
-    color: #FFB6C1;
+    color: #e8f8f8;
     transition: color 0.3s ease;
 }
 .skills .skills-content .card:hover i{
-    color: #fff;
+    color: rgb(213, 224, 215);
 }
 .skills .skills-content .card .text{
     font-size: 15px;
@@ -339,7 +339,7 @@ section .title::before{
 
 .projects{
     color: #fff;
-    background: #45bde2;
+    background: #197e5c;
 }
 
 .projects .carousel .card{
