@@ -66,17 +66,6 @@ section .title::before{
     transform: translateX(-50%);
 }
 
-/*section .title::after{
-    position: absolute;
-    bottom: -8px;
-    left: 50%;
-    font-size: 20px;
-    color: crimson;
-    padding: 0 5px;
-    background: #fff;
-    transform: translateX(-50%);
-}
-*/
 
 /* navbar styling */
 .navbar{
@@ -203,39 +192,7 @@ section .title::before{
     margin: 5px 0;
 }
 
-/*
-.home .home-content .text-3 span{
-    color: crimson;
-    font-weight: 500;
-}
-*/
 
-/*
-.home .home-content a{
-    display: inline-block;
-    background: crimson;
-    color: #fff;
-    font-size: 25px;
-    padding: 12px 36px;
-    margin-top: 20px;
-    font-weight: 400;
-    border-radius: 6px;
-    border: 2px solid crimson;
-    transition: all 0.3s ease;
-}
-.home .home-content a:hover{
-    color: crimson;
-    background: none;
-}
-*/
-
-/* about section styling */
-/*
-.about .title::after{
-    content: "who i am";
-}
-
-*/
 .about .about-content .left{
     width: 45%;
 }
@@ -253,11 +210,7 @@ section .title::before{
     font-weight: 600;
     margin-bottom: 10px;
 }
-/*
-.about .about-content .right .text span{
-    color: crimson;
-}
-*/
+
 .about .about-content .right p{
     text-align: justify;
 }
@@ -290,9 +243,7 @@ section .title::before{
 }
 
 
-/*
-.skills .title::after,
-*/
+
 .projects .title::after{
 
     background: #111;
@@ -426,30 +377,7 @@ section .title::before{
     font-weight: 600;
     margin-bottom: 10px;
 }
-/* .contact .contact-content .left p{
-    text-align: justify;
-}
-.contact .contact-content .left .icons{
-    margin: 10px 0;
-} */
-/* .contact .contact-content .row{
-    display: flex;
-    height: 65px;
-    align-items: center;
-}
-.contact .contact-content .row .info{
-    margin-left: 30px;
-}
-.contact .contact-content .row i{
-    font-size: 25px;
-    color: crimson;
-} */
-/* .contact .contact-content .info .head{
-    font-weight: 500;
-} */
-/* .contact .contact-content .info .sub-title{
-    color: #333;
-} */
+/
 
 .contact .contact-content{
     font-size: 30px;
@@ -520,15 +448,6 @@ footer{
     color: #fff;
     text-align: center;
 }
-/* footer span a{
-    color: rgb(20, 100, 220);
-    text-decoration: none;
-} */
-/* footer span a:hover{
-    text-decoration: underline;
-}
- */
-
 
 
 
@@ -584,12 +503,7 @@ footer{
         font-size: 35px;
     }
 
-    /*
-    .home .home-content a{
-        font-size: 23px;
-        padding: 10px 30px;
-    }
-    */
+    
 
     .max-width{
         max-width: 930px;
@@ -628,11 +542,6 @@ footer{
         font-size: 32px;
     }
   
-    /*
-    .home .home-content a{
-        font-size: 20px;
-    }
-    */
 
     .skills .skills-content .card{
         width: 100%;
