@@ -5,6 +5,13 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+.max-width{
+  max-width: 1300px;
+  padding: 0 80px;
+  margin: auto;
 }
 
 header{
@@ -17,10 +24,101 @@ header{
   justify-content: space-between;
   align-items: center;
   padding: 15px 200px;
-  transition: 0.5s ease;
+  transition: 0.5s
+}
+  /* navbar styling */
+.navbar{
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  padding: 30px 0;
+  font-family: 'Ubuntu', sans-serif;
+  transition: all 0.3s ease;
+}
+.navbar.sticky{
+  padding: 15px 0;
+  background: black;
+}
+.navbar .max-width{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-header .brand{
+
+.navbar .logo a{
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+
+.navbar .logo a span{
+  color: crimson;
+  transition: all 0.3s ease;
+}
+
+
+.navbar.sticky .logo a span{
+  color: #fff;
+}
+
+.navbar .menu li{
+  list-style: none;
+  display: inline-block;
+}
+.navbar .menu li a{
+  display: block;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 25px;
+  transition: color 0.3s ease;
+}
+.navbar .menu li a:hover{
+  color: rgb(195, 224, 62);
+}
+.navbar.sticky .menu li a:hover{
+  color: #fff;
+}
+
+/* menu btn styling */
+.menu-btn{
+  color: #fff;
+  font-size: 23px;
+  cursor: pointer;
+  display: none;
+}
+.scroll-up-btn{
+    position: fixed;
+    height: 45px;
+    width: 42px;
+    background: rgb(0, 0, 0);
+    right: 30px;
+    bottom: 10px;
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    z-index: 9999;
+    font-size: 30px;
+    border-radius: 6px;
+    border-bottom-width: 2px;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+.scroll-up-btn.show{
+    bottom: 30px;
+    opacity: 1;
+    pointer-events: auto;
+}
+.scroll-up-btn:hover{
+    filter: brightness(90%);
+}
+
+
+/* header .brand{
   color: #fff;
   font-size: 1.5em;
   font-weight: 700;
@@ -55,7 +153,7 @@ header .navigation .navigation-items a:before{
 
 header .navigation .navigation-items a:hover:before{
   width: 100%;
-}
+} */
 
 section{
   padding: 100px 200px;
@@ -200,9 +298,9 @@ section{
 }
 
 @media (max-width: 1040px){
-  header{
+  /* header{
     padding: 12px 20px;
-  }
+  } */
 
   section{
     padding: 100px 20px;
@@ -211,8 +309,9 @@ section{
   .home .media-icons{
     right: 15px;
   }
+}
 
-  header .navigation{
+  /* header .navigation{
     display: none;
   }
 
@@ -269,7 +368,7 @@ section{
     background-position: center;
     transition: 0.3s ease;
   }
-}
+} */
 
 @media (max-width: 560px){
   .home .content h1{
@@ -277,4 +376,5 @@ section{
     line-height: 60px;
   }
 }
+
       
