@@ -419,8 +419,37 @@ img {
 }
 
 /*=============== BUTTON ===============*/
+.button {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  column-gap: 0.5rem;
+}
+
+.button {
+  background-color: var(--black-color);
+  padding: 1.1rem 1.5rem;
+  color: var(--white-color);
+  font-weight: var(--font-medium);
+  transition: background-color 0.4s;
+}
 
 /*=============== ABOUT ===============*/
+
+.about__container {
+  row-gap: 0;
+}
+
+.about__info {
+  padding-left: 1.25rem;
+}
+
+.about__buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 1rem;
+}
 
 /*=============== SERVICES ===============*/
 
